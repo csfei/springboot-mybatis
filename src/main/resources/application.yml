@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    #若时区报错   需要添加时区设置serverTimezone=UTC&
+    url: jdbc:mysql://127.0.0.1:3306/mybatis?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
